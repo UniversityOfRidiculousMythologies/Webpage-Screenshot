@@ -1,4 +1,4 @@
-if ('#exturl#' == 'ckibcdccnfeookdmbahgiakhnjcddpki') {
+if ('#exturl#' == 'akgpcdalpfphjmfifkmfbpdmgdmeeaeo') {
   window.onerror = function (message, url, num) {
     return url == false
   }
@@ -302,12 +302,12 @@ var page = {
         }
         try {
           document.getElementById('presence').style.display = 'none';
-          window.setTimeout('document.getElementById(\'presence\').style.display=\'\'', 10000);
+          window.setTimeout(() => {document.getElementById('presence').style.display=''}, 10000);
         } catch (e) {
         }
         try {
           document.getElementById('navi-bar').style.display = 'none';
-          window.setTimeout('document.getElementById(\'navi-bar\').style.display=\'\'', 10000);
+          window.setTimeout(() => {document.getElementById('navi-bar').style.display=''}, 10000);
         } catch (e) {
         }
 
@@ -533,7 +533,7 @@ function dectect_zoom(){
     }
 }
 
-if (location.href.match('https://www.webpagescreenshot.info/robots')) {
+if (location.href.match('https://www.openscreenshot.com/robots')) {
     var url = window.location.href;
     var params = '?';
     var index = url.indexOf(params);
